@@ -12,6 +12,9 @@ def f(a):
   return b
 ```
 
+fancier table 
+
+{: .table .table-striped}
 | header col 1 | col 2 |
 | --- | --- |
 | a | b |
