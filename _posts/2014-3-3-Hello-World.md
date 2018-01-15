@@ -20,6 +20,18 @@ fancier table
 | a | b |
 | long cell text | short |
 
+other table
+<table>
+  <tr>
+    <th>a</th>
+    <th>b</th>
+  </tr>
+  <tr>
+    <td>long cell content wow so long</td>
+    <td>short</td>
+  </tr>
+</table>
+
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
