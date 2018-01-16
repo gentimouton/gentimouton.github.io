@@ -2,7 +2,6 @@
 
 name: gentimouton
 description: A blog about games, software, and data.
-# avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 avatar: /images/avatar.jpg
 
 # Includes an icon in the footer for each username you enter
