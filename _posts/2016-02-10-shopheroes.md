@@ -16,7 +16,7 @@ An example of UI misleading expectations is the <a href="http://shop-heroes.wiki
 
 ![Roulette in Shop Heroes](/images/shop_heroes_roulette.png)
 
-<h2>Hidding information</h2>
+<h2>Hiding information</h2>
 <p>
 An example of UI purposefully hidding important information can be found in the screen where players build their quest teams. Players send heroes on quests dozens of times per day. When heroes are strong enough to tackle the quest, a green smiley is displayed above their head. When they are not strong enough, the smiley turns to yellow or red, showing that they are more likely to be injured. Injured heroes are unusable for several hours, so players strive for green smileys. But each of the 8 equipment slots of each hero has a 1-10% chance to break during a quest. Therefore players equip their heroes with just enough equipment to reach green smileys, so as to minimize the costs incurred by broken equipment.
 </p>
