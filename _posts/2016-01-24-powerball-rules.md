@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Powerball lottery - Rules and patterns of play
+excerpt_separator: <!--more-->
 ---
 
 On January 13 2016, the [Powerball](https://en.wikipedia.org/wiki/Powerball) lottery made the news by reaching a jackpot of $1.5B, the largest in US history. [Lotteries](https://en.wikipedia.org/wiki/Lottery#United_States) are interesting because they are a gambling game used by governments to raise funds without raising taxes. Let's have a closer look at the rules, odds, and profits made by lotteries, using Powerball as an example since it's [one of the lotteries with highest sales](http://nylottery.ny.gov/wps/wcm/connect/e4ce705f-d71d-4c2d-b47f-5ae1368f61e8/annualReport2015_final.pdf?MOD=AJPERES&Annual%20Report).
 
-
+<!--more-->
 
 ## Basics
 
