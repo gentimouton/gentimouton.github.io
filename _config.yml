@@ -4,33 +4,14 @@ name: gentimouton
 description: A blog about games, software, and data.
 avatar: /images/avatar.jpg
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: gentimouton
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
 # Disqus shortname (not username) to enable commenting on posts.
 disqus: gentimouton
 
 # Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-112522068-1
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# site url, used to build sitemap
 url: gentimouton.github.io
-
 # "/repository-name" if Project Pages, empty if User Pages.
 baseurl: 
 
@@ -52,7 +33,7 @@ kramdown:
 
 # Sass partials directory, used in @imports
 sass:
-  style: :expanded # :expanded or :compressed for minified
+  style: :minified # :expanded or :compressed for minified
 
 # Use the following plug-ins
 gems:
