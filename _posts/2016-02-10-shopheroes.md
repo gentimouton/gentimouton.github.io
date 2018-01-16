@@ -3,11 +3,11 @@ layout: post
 title: Opaque mechanics in Shop Heroes
 ---
 
-<p>
 Shop Heroes is an item-shop game released on mobile and Kongregate in mid 2014 by <a href="http://cloudcade.com/">CloudCade</a>. The gameplay consists of crafting equipment for heroes, who then go on quests to find materials, which are used to craft more equipment. Players can gather in Towns to share the costs incurred by leveling up buildings, which unlock more heroes and quests.
-</p><p>
+
+
 CloudCade advertises striving for <a href="https://www.linkedin.com/company/cloudcade">useability and superior gameplay</a>. I understand that when they launched Shop Heroes, they were still a small studio. But their UI needs more work: it has too many screens, too many taps to start an action, too much information, and <a href="http://www.goodui.org/#3">fragmentation</a>/duplicate information. Sometimes, information is not just missing or duplicated. It's purposefully hidden, misleading, or manipulative.
-</p>
+
 
 <h2>Misleading expectations</h2>
 <p>
