@@ -10,3 +10,4 @@ my blog about games, software, and data
 ### adding a post
 
 - in `_posts`, create a file named `YYYY-MM-DD-your-title.md`
+- give github a couple minutes to update https://gentimouton.github.io/
