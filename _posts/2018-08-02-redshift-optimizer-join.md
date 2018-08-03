@@ -43,6 +43,7 @@ When running this query, the
 that `session_id` is the distkey of neither table.
 Running an `explain` outputs a super expensive line like this:
 > -> XN Hash Join DS_DIST_BOTH (cost=123456.78..234567.89 rows=78901 width=89)
+This means both tables being joined have to be shuffled across nodes.
 
 The optimizer does not know that each `session_id` maps to a single `user_id`.
 Redshift is not a relational DB, and it does not enforce such subkey constraints.
