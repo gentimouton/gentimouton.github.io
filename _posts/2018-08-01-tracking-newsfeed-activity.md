@@ -6,7 +6,8 @@ excerpt_separator: <!--more-->
 
 
 Let's imagine a user browsing Facebook's Newsfeed. 
-This post describes how I would track basic Newsfeed user activity and design schemas in Redshift.
+This post describes how I would track basic Newsfeed user activity, 
+and design supporting schemas in Redshift.
 
 <!--more-->
 
@@ -53,11 +54,13 @@ select
 from feed_init i
 left join feed_show_story s
   on i.session_id = s.session_id
-  and datediff('second', i.ts, s.ts) <= 12*60*60 -- cap sessions to 12h
+  and datediff('second', i.ts, s.ts) <= 12*60*60 
+  -- cap sessions to 12h
 where i.ts >= '2018-08-01' 
   and i.ts < '2018-08-02'
   and s.ts >= '2018-08-01'
-  and s.ts < '2018-08-02 12:00:00' -- extra 12h so as to not cut sessions starting at 23:59
+  and s.ts < '2018-08-02 12:00:00' 
+  -- extra 12h so as to not cut sessions starting at 23:59
 ```
 
 
