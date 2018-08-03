@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redshift joins
+title: Redshift joins and distkeys
 excerpt_separator: <!--more-->
 ---
 
