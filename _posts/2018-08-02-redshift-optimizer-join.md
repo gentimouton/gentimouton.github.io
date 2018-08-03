@@ -41,15 +41,16 @@ where i.ts >= '2018-08-01'
 When running this query, the 
 [optimizer detects](https://docs.aws.amazon.com/redshift/latest/dg/c-the-query-plan.html) 
 that `session_id` is the distkey of neither table.
-Running an `explain` outputs a super expensive line like this:
+Running an `explain` outputs a line indicating data from both tables has to be shuffled.
+Something super expensive like this:
 > -> XN Hash Join DS_DIST_BOTH (cost=123456.78..234567.89 rows=78901 width=89)
-This means both tables being joined have to be shuffled across nodes.
 
 The optimizer does not know that each `session_id` maps to a single `user_id`.
 Redshift is not a relational DB, and it does not enforce such subkey constraints.
 We could explicitly tell the optimizer to consider the distkey.
 However, adding a `and i.user_id = s.user_id` outputs the same query plan.
-If it worked, we'd see something like this instead:
+If it worked, we'd see something indicating none of the tables needs to be shuffled. 
+Something like this:
 > -> XN Merge Join DS_DIST_NONE (cost=0.0..123.45 rows=78901 width=89)
 
 
