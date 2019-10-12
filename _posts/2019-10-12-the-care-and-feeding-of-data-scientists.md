@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 This post is my notes on a [white paper](https://oreilly-ds-report.s3.amazonaws.com/Care_and_Feeding_of_Data_Scientists.pdf)
 by [Michelangelo D'Agostino](https://www.linkedin.com/in/michelangelod/)
 and [Katie Malone](https://www.linkedin.com/in/caitlin-malone-46050854/) on managing data scientists.
-Overall, the report is a good introduction to the basics of managing DS, and provides a few generally-applicable guidelines.
+Overall, the report is a good introduction to the basics of managing DS, providing a bunch of generally-applicable guidelines.
 Note however that both authors come from the same company (Civis), and are relatively junior managers 
 (5 and 3 years of management experience respectively).
 
@@ -80,3 +80,44 @@ Onboarding:
 - 30-day plan to learn their way around: coffee with everyone on list, fix 3 bugs, and give presentation.
 - 90-day plan to reach cruising speed, or correct course.
 
+
+## 4- Keeping things interesting
+
+Lack of challenge and learning are top 2 reasons for DS to change job.
+Fear of missing out - "my company isn't doing any cool ML or Spark" - leads to loathing of management.
+Solutions: 
+- hire DS who want to have impact, not who want cool new toys.
+- journal club, eg over lunch. White paper has list of a dozen sources, eg [Morning Paper](https://blog.acolyer.org/).
+- watch talks, eg from PyData
+- Google's 20% does not work - too hard to pull people for a half-day off their usual work. Instead, hack weeks with clear deliverable (eg blog, prototype, notebook, open source bugfix), light accountability (daily check-in to hack week buddy, final presentation).
+- allow attending conferences or meetups.
+
+
+## 5- Agile and OKR
+
+Agile started with core principles, then became codified, 
+and it now has its own processes like sprint planning and retros.
+Too much process can turn DS away, decrease creativity, etc.
+Solution: go back to original Agile principles:
+- Individuals and interactions over processes and tools -> talk to customers to understand the business and their problem.
+- Customer collaboration over contract negotiation -> frequent incremental presentations to customers.
+- Responding to change over following a plan -> learn as you go.
+
+Objectives (the final goal) and Key Results (steps towards goal).
+Decline each KR in 3 (quality X achievability) levels: decent and definitely achievable, great and unlikely, and amazing but impossible.
+Example:
+- Objective: surprise and delight the customer with personalized shopping experiences
+- KR: increase CTR by 2% by tuning algo / 5% by adding more data sources / 10% by deep learning and even more data.
+
+
+## 6- Career ladder
+
+What leads to a raise or promotion?
+Provide both individual-contributor and management tracks, going from junior to senior and principal.
+
+Requirements fall in 3 categories:
+- technical: ideally T-shaped skillset (be good overall, excellent in one thing).
+- organizational: communicate effectively with peers and manager > mentor and develop ideas with PMs.
+- personal: ask for help to unblock yourself, manage your time > can self-unblock, bring external innovation to the team > company-wide ownership mentality.
+
+The report gives a full leveling guide.
