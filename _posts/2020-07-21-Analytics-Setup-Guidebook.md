@@ -1,5 +1,13 @@
+---
+layout: post
+title: Setting up analytics and BI tools
+excerpt_separator: <!--more-->
+---
 
-Notes from a [Holistics.io book](https://www.holistics.io/books/setup-analytics/) on setting up analytics and BI.
+Notes from a [Holistics.io book](https://www.holistics.io/books/setup-analytics/) on setting up analytics and BI tools.
+
+<!--more-->
+
 
 # Chapter 1. High-level Overview of an Analytics Setup
 
