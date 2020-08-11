@@ -60,19 +60,20 @@ Moreover, summary statistics from the Homebase data in terms of hours worked, wa
 **Results**
 
 Altonji runs a linear regression, predicting probability of employment against the following covariates:
-- Week indicator. The baseline weeks are the 2 weeks of Jan 19 - Feb 1.
-- Replacement ratio group: binned replacement rate ratio. Baseline is RRR below 250%, bins are 251-300%, 301-350%, etc.
-- Week indicator * replacement ratio group: this is what we really are interested in. The null hypothesis is that laid-off workers are slower to return to work over time the higher their replacement ratio is. So we really only care about this coefficient. The other covariates are just controls.
+- `Week indicator`. The baseline weeks are the 2 weeks of Jan 19 - Feb 1.
+- `Replacement ratio group`: binned replacement rate ratio. Baseline is RRR below 250%, bins are 251-300%, 301-350%, etc.
+- `Week indicator * replacement ratio group`: this is what we really are interested in. The null hypothesis is that laid-off workers are slower to return to work over time the higher their replacement ratio is. So we really only care about this coefficient. The other covariates are just controls.
 - Pre-CARES replacement rate `RR`,
-- Baseline wage,
-- Industry indicator (education, food, retail, etc).
+- `Baseline wage`,
+- `Industry indicator` (education, food, retail, etc).
 
-The second more complex model adds COVID cases per capita in that state that week, and if the state had active policies that week for stay at home, mandatory closures of non-essential stores, restaurants, and gyms.
-
-For both models, Altonji plots the probability of employment over time, split by replacement ratio group.
-
-All plots reject the null hypothesis: after the shock of early March, employment goes back up for all groups equally.
+Plotting the coefficient for `Week indicator * replacement ratio group`, ie the probability of employment over time split by replacement ratio group, shows we can reject the null hypothesis. 
+After the shock of early March, employment goes back up for all groups equally. 
 Without establishing causality, this counter-intuitively suggests that workers paid proportionally more in CARES UI are more likely to go back to work.
+
+![Unemployment regression](/images/covid_unemployment_regression.png)
+
+The second more complex model adds COVID cases per capita in that state that week, and if the state had active policies that week for stay at home, mandatory closures of non-essential stores, restaurants, and gyms. The same results hold.
 
 
 
